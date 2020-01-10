@@ -180,7 +180,7 @@ AddService:
   Type: AWS::Serverless::Function
   Properties:
     Handler: filename.handler-function
-    Runtime: nodejs8.10
+    Runtime: nodejs12.x
     Role:
       Fn::GetAtt:
       - LambdaExecutionRole
